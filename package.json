@@ -1,0 +1,25 @@
+{
+  "name": "pages-test",
+  "version": "1.0.0",
+  "description": "A quick GitHub Pages test, including NodeJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jouska/pages-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jouska/pages-test/issues"
+  },
+  "homepage": "https://github.com/Jouska/pages-test#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  }
+}
